@@ -10,7 +10,7 @@ export default function Navbar() {
       <div className="flex gap-6 text-sm">
         <Link href="/projects">Projects</Link>
         <Link href="/about">About</Link>
-        <a href="/cv-bernadette-quitoriano-sk-.pdf" download>Download CV</a>
+        <a href="/cv-bernadette-quitoriano-.pdf" download>Download CV</a>
       </div>
     </nav>
   );
