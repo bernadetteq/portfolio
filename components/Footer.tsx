@@ -50,8 +50,8 @@ export default function Footer() {
                     <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-1 1.8-2.2 3.9-2.2 4.2 0 5 2.8 5 6.5V24h-4v-7.1c0-1.7 0-3.9-2.4-3.9s-2.7 1.9-2.7 3.8V24h-4V8z" />
                   </svg>
                 </a> 
-                <a href="bimquitoriano@gmail.com" className="text-sm">
-                  bimquitoriano@gmail.com
+                <a href="https://www.linkedin.com/in/bimquitoriano/" className="text-sm">
+                  /bimquitoriano
                 </a>
               </div>
 
