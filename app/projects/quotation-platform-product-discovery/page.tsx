@@ -1,5 +1,6 @@
 import Link from "next/link";
-import MobileCarousel from "@/components/MobileCarousel";
+import MobileCarousel from "@/components/MobileCarousel"; 
+import ImageCarousel from "@/components/ImageCarousel";
 
 export default function ProjectsPage() {
   return (
@@ -150,6 +151,14 @@ export default function ProjectsPage() {
 
             
         </section>
+        {/* <section className="space-y-6">
+            <h1 className="text-4xl tracking-tight mb-6">Visual Assets</h1>
+            <p className="text-lg text-gray-600 max-w-2xl">
+            Placeholder for screenshots, wireframes, and other visual assets that illustrate the design and functionality of the returns platform.
+            </p>    
+            <MobileCarousel />
+        </section> */}
+        <ImageCarousel />
     </main>
   );
 }
