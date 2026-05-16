@@ -59,7 +59,8 @@ const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
   });
 
-    const [selectedImage, setSelectedImage] = useState(null);
+    // const [selectedImage, setSelectedImage] = useState(null);
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
     const scrollPrev = () => emblaApi && emblaApi.scrollPrev();
     const scrollNext = () => emblaApi && emblaApi.scrollNext(); 
 
@@ -115,7 +116,7 @@ const [emblaRef, emblaApi] = useEmblaCarousel({
                 >
 
                 <button
-                    onClick={() => setSelectedImage(images.src)}
+                    onClick={() => setSelectedImage(slide.src)}
                     className="w-full"
                 >
 
