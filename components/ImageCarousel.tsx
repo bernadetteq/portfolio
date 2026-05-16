@@ -115,7 +115,7 @@ const [emblaRef, emblaApi] = useEmblaCarousel({
                 >
 
                 <button
-                    onClick={() => setSelectedImage(slide.src)}
+                    onClick={() => setSelectedImage(images.src)}
                     className="w-full"
                 >
 
