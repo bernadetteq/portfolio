@@ -153,6 +153,7 @@ const [emblaRef, emblaApi] = useEmblaCarousel({
                             text-xl
                             font-semibold
                             tracking-tight
+                            text-shadow-md
                         "
                         >
                         {slide.title}

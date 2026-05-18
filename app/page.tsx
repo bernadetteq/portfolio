@@ -17,7 +17,7 @@ export default function Home() {
           Product Owner with 10+ years of experience building digital products across B2C and B2B environments.
         </h1>
 
-        <p className="text-lg text-gray-600 max-w-2xl">
+        <p className="text-lg text-gray-500 max-w-2xl">
           {/* Focused on building customer-centered digital products that balance usability, business impact, and measurable outcomes. Currently exploring AI and machine learning to shape future product experiences. */}
           Combining product strategy, UX thinking, and technical fluency to create intuitive experiences that drive measurable business outcomes. Currently exploring AI and machine learning applications in product development.
         </p>
@@ -31,7 +31,7 @@ export default function Home() {
           <Link href="/projects/digitizing-returns">
             <div className="border rounded-2xl p-6 mb-8">
               <h3 className="text-xl tracking-tight">Digitizing the Returns Experience</h3>
-              <p className="text-gray-600 mt-2">
+              <p className="text-gray-500 mt-2">
                 Built a self-service returns platform that addressed rising support demand, streamlined operations, and improved the end-to-end customer experience.
               </p>
             </div>
@@ -39,7 +39,7 @@ export default function Home() {
           <Link href="/projects/scaling-return-operations">
             <div className="border rounded-2xl p-6 mb-8">
               <h3 className="text-xl tracking-tight">Scaling Return Operations Through Automation</h3>
-              <p className="text-gray-600 mt-2">
+              <p className="text-gray-500 mt-2">
                 Introduced automated return tracking and notifications to reduce operational overhead and accelerate customer access to real-time return information.
               </p>
             </div>
@@ -47,7 +47,7 @@ export default function Home() {
           <Link href="/projects/quotation-platform-product-discovery">
             <div className="border rounded-2xl p-6">
               <h3 className="text-xl tracking-tight">Shaping the Next Phase of an Internal Quotation Tool</h3>
-              <p className="text-gray-600 mt-2">
+              <p className="text-gray-500 mt-2">
                 Used research, stakeholder interviews, and workflow analysis to identify high-impact enhancements and inform future product direction.
               </p>
             </div>

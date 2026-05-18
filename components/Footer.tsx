@@ -7,7 +7,7 @@ export default function Footer() {
         <footer className="flex flex-col sm:flex-row">
             <div className="sm:w-2/4 flex-auto space-y-4 pr-8 ">
               <h5 className="text-2xl tracking-tight">Let's build awesome things!</h5>
-              <p className="text-gray-600 max-w-2xl">
+              <p className="text-gray-500 max-w-2xl">
                 I'm always excited to collaborate on new projects and bring ideas to life.
               </p>
             </div>

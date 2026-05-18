@@ -14,7 +14,7 @@ export default function ProjectsPage() {
             E-COMMERCE
             </p>
             <h1 className="text-4xl tracking-tight mb-6">Scaling Return Operations Through Automation</h1>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <p className="text-lg text-gray-500 max-w-2xl">
             Led the transition from manual return processing to a rules-based automated workflow, reducing operational overhead and accelerating customer resolutions.
             </p>    
 
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
                             Role
                             </p>
 
-                            <p className="text-sm text-gray-600 max-w-2xl">
+                            <p className="text-sm text-gray-500 max-w-2xl">
                             Product Manager
                             </p>
                         </div>
@@ -69,7 +69,7 @@ export default function ProjectsPage() {
                             Teams
                             </p>
 
-                            <p className="text-sm text-gray-600 max-w-2xl">
+                            <p className="text-sm text-gray-500 max-w-2xl">
                             Contact Center, Data Science, Scrum Team
                             </p>
                         </div>
@@ -82,14 +82,14 @@ export default function ProjectsPage() {
         </section>
         <section className="space-y-6">
             <h2 className="text-2xl tracking-tight mb-6 tracking-tight">Problem</h2>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <p className="text-lg text-gray-500 max-w-2xl">
             Although customers could already submit returns online, the backend return processing workflow remained heavily manual. Support teams were required to review requests, validate eligibility, approve returns, and coordinate customer communications, creating operational bottlenecks as return volumes increased.
             </p>
-            <p className="text-lg text-gray-600 max-w-2xl">The business needed a scalable solution that could automate repetitive workflows, reduce turnaround times, and improve the overall customer experience without disrupting the existing self-service journey.</p>
+            <p className="text-lg text-gray-500 max-w-2xl">The business needed a scalable solution that could automate repetitive workflows, reduce turnaround times, and improve the overall customer experience without disrupting the existing self-service journey.</p>
             
             <h2 className="text-2xl tracking-tight mb-6">Creative Process</h2>
 
-            <ul className="list-decimal list-outside text-lg text-gray-600 max-w-2xl pl-6">
+            <ul className="list-decimal list-outside text-lg text-gray-500 max-w-2xl pl-6">
                 <li>Identified operational bottlenecks within the manual return processing workflow through data analysis and stakeholder interviews.</li>
                 <li>Analyzed repetitive support tasks to determine automation opportunities</li>
                 <li>Collaborated with operations, support, and engineering teams to define business rules and approval logic</li>
@@ -104,21 +104,21 @@ export default function ProjectsPage() {
 
                 <div className="h-full border rounded-2xl p-6 mb-8 sm:mb-0">
                     <p className="text-5xl tracking-tight mb-4">+13%</p>
-                    <p className="text-gray-600">Online Returns driven by faster and more scalable self-service return processing</p>
+                    <p className="text-gray-500">Online Returns driven by faster and more scalable self-service return processing</p>
                 </div>
 
                 <div className="h-full border rounded-2xl p-6 mb-8 sm:mb-0">
                     <p className="text-5xl tracking-tight mb-4">37 NPS</p>
-                    <p className="text-gray-600">Achieved through a faster and more streamlined returns journey</p>
+                    <p className="text-gray-500">Achieved through a faster and more streamlined returns journey</p>
                 </div>
 
             </div>
             <h2 className="text-2xl tracking-tight mb-6">Key Takeaway</h2>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <p className="text-lg text-gray-500 max-w-2xl">
             This project reinforced the importance of operational scalability after achieving product adoption. While the initial challenge was enabling customers to complete returns online, the next challenge was ensuring the business could efficiently support growing demand behind the scenes.
 
             </p>
-            <p className="text-lg text-gray-600 max-w-2xl">I learned that successful self-service experiences extend beyond the user interface and they also require resilient operational systems, clear automation logic, and cross-functional alignment to scale effectively.</p>
+            <p className="text-lg text-gray-500 max-w-2xl">I learned that successful self-service experiences extend beyond the user interface and they also require resilient operational systems, clear automation logic, and cross-functional alignment to scale effectively.</p>
             
         </section>
     </main>

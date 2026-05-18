@@ -15,7 +15,7 @@ export default function ProjectsPage() {
             B2B &#10072; SOFTWARE PLATFORM &#10072; PRODUCT DISCOVERY
             </p>
             <h1 className="text-4xl tracking-tight mb-6">Quotation Platform Product Discovery</h1>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <p className="text-lg text-gray-500 max-w-2xl">
             Led the transition from manual return processing to a rules-based automated workflow, reducing operational overhead and accelerating customer resolutions.
             </p>    
 
@@ -43,7 +43,7 @@ export default function ProjectsPage() {
                             Role
                             </p>
 
-                            <p className="text-sm text-gray-600 max-w-2xl">
+                            <p className="text-sm text-gray-500 max-w-2xl">
                             Scrum Product Owner
                             </p>
                         </div>
@@ -70,7 +70,7 @@ export default function ProjectsPage() {
                             Teams
                             </p>
 
-                            <p className="text-sm text-gray-600 max-w-2xl">
+                            <p className="text-sm text-gray-500 max-w-2xl">
                             Sales, Pricing & Quotation Operations, <br className="hidden sm:inline" />Regional Commercial Leadership teams, <br className="hidden sm:inline" />Product and UX teams
                             </p>
                         </div>
@@ -83,24 +83,24 @@ export default function ProjectsPage() {
         </section>
         <section className="space-y-6">
             <h2 className="text-2xl tracking-tight mb-6 tracking-tight">Project Overview</h2>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <p className="text-lg text-gray-500 max-w-2xl">
             As the internal quotation platform matured, the team identified an opportunity to improve how quotation updates and follow-ups were managed across global sales and pricing operations. Rather than immediately introducing new features, we initiated a structured product discovery effort to better understand operational pain points and identify high-impact opportunities for future growth.</p>
 
-            <p className="text-lg text-gray-600 max-w-2xl">Working closely with Sales Executives, Quote Desk teams, Pricing Executives, Trade Lane Managers, and Regional Pricing Managers, we conducted cross-functional discovery activities to uncover workflow inefficiencies, communication gaps, and areas where the product could better support business responsiveness.</p>
+            <p className="text-lg text-gray-500 max-w-2xl">Working closely with Sales Executives, Quote Desk teams, Pricing Executives, Trade Lane Managers, and Regional Pricing Managers, we conducted cross-functional discovery activities to uncover workflow inefficiencies, communication gaps, and areas where the product could better support business responsiveness.</p>
 
-            <p className="text-lg text-gray-600 max-w-2xl">Although the proposed solutions were ultimately deprioritized due to shifting company goals, the initiative established a stronger product discovery practice within the team and provided valuable strategic insights for the platform's future direction.
+            <p className="text-lg text-gray-500 max-w-2xl">Although the proposed solutions were ultimately deprioritized due to shifting company goals, the initiative established a stronger product discovery practice within the team and provided valuable strategic insights for the platform's future direction.
             </p>
             <h2 className="text-2xl tracking-tight mb-6 tracking-tight">Problem</h2>
-            <p className="text-lg text-gray-600 max-w-2xl">Quotation updates and follow-ups relied heavily on manual coordination across multiple operational teams, resulting in communication delays, limited visibility, and inefficiencies in managing quote progress.</p>
-            <p className="text-lg text-gray-600 max-w-2xl">As the platform expanded across global teams, the organization needed a clearer understanding of user workflows and operational bottlenecks before investing in the next phase of product development.</p>
+            <p className="text-lg text-gray-500 max-w-2xl">Quotation updates and follow-ups relied heavily on manual coordination across multiple operational teams, resulting in communication delays, limited visibility, and inefficiencies in managing quote progress.</p>
+            <p className="text-lg text-gray-500 max-w-2xl">As the platform expanded across global teams, the organization needed a clearer understanding of user workflows and operational bottlenecks before investing in the next phase of product development.</p>
             <h2 className="text-2xl tracking-tight mb-6">Discovery Goal</h2>
-            <p className="text-lg text-gray-600 max-w-2xl font-semibold">North Star</p>
-            <p className="text-lg text-gray-600 max-w-2xl">Understand how the product can better support internal teams in winning more business.</p>
+            <p className="text-lg text-gray-500 max-w-2xl font-semibold">North Star</p>
+            <p className="text-lg text-gray-500 max-w-2xl">Understand how the product can better support internal teams in winning more business.</p>
             
             <h2 className="text-2xl tracking-tight mb-6">Creative Process</h2>
-            <ul className="list-[upper-roman] list-outside text-lg text-gray-600 max-w-2xl pl-6">
+            <ul className="list-[upper-roman] list-outside text-lg text-gray-500 max-w-2xl pl-6">
                 <li>Discovery & Research
-                    <ul className="list-decimal list-outside text-lg text-gray-600 max-w-2xl pl-6">
+                    <ul className="list-decimal list-outside text-lg text-gray-500 max-w-2xl pl-6">
                         <li>Conducted stakeholder interviews across sales, pricing, and operational teams</li>
                         <li>Shadowed intensive product users to understand day-to-day quotation workflows</li>
                         <li>Facilitated collaborative workshops to surface recurring operational pain points</li>
@@ -108,7 +108,7 @@ export default function ProjectsPage() {
                     </ul>
                 </li>
                 <li>User Groups
-                    <ul className="list-decimal list-outside text-lg text-gray-600 max-w-2xl pl-6">
+                    <ul className="list-decimal list-outside text-lg text-gray-500 max-w-2xl pl-6">
                         <li>Sales Executives</li>
                         <li>Quote Desk / Pricing Executives</li>
                         <li>Trade Lane Managers</li>
@@ -116,17 +116,17 @@ export default function ProjectsPage() {
                     </ul>
                 </li>
                 <li>Insight Consolidation
-                    <ul className="list-decimal list-outside text-lg text-gray-600 max-w-2xl pl-6">
+                    <ul className="list-decimal list-outside text-lg text-gray-500 max-w-2xl pl-6">
                         <li>Synthesized recurring pain points and workflow inefficiencies</li>
                         <li>Mapped findings into opportunity areas and prioritization themes</li>
                         <li>Used Opportunity Solution Trees to visualize potential solution paths</li>
                     </ul>
                 </li>
                 <li>Solution Exploration
-                    <ul className="list-decimal list-outside text-lg text-gray-600 max-w-2xl pl-6"  >
+                    <ul className="list-decimal list-outside text-lg text-gray-500 max-w-2xl pl-6"  >
                         <li>Facilitated ideation sessions with stakeholders and operational experts</li>
                         <li>Explored concepts such as:
-                            <ul className="list-[lower-alpha] list-outside text-lg text-gray-600 max-w-2xl pl-6">
+                            <ul className="list-[lower-alpha] list-outside text-lg text-gray-500 max-w-2xl pl-6">
                                 <li>quotation messaging capabilities</li>
                                 <li>quote file indicators and status alerts</li>
                                 <li>workflow visibility improvements</li>
@@ -139,21 +139,21 @@ export default function ProjectsPage() {
             </ul>
 
             <h2 className="text-2xl tracking-tight mb-6">Key Challenges</h2>
-            <p className="text-lg text-gray-600 max-w-2xl font-semibold">Coordinating Global Stakeholders</p>
-            <p className="text-lg text-gray-600 max-w-2xl">Scheduling discovery sessions across multiple regions and time zones required flexibility and close coordination with global operational teams.</p>
-            <p className="text-lg text-gray-600 max-w-2xl font-semibold">Managing Discovery Scope</p>
-            <p className="text-lg text-gray-600 max-w-2xl">Early interviews surfaced a wide range of opportunities, making prioritization and insight consolidation a critical part of the discovery process.</p>
+            <p className="text-lg text-gray-500 max-w-2xl font-semibold">Coordinating Global Stakeholders</p>
+            <p className="text-lg text-gray-500 max-w-2xl">Scheduling discovery sessions across multiple regions and time zones required flexibility and close coordination with global operational teams.</p>
+            <p className="text-lg text-gray-500 max-w-2xl font-semibold">Managing Discovery Scope</p>
+            <p className="text-lg text-gray-500 max-w-2xl">Early interviews surfaced a wide range of opportunities, making prioritization and insight consolidation a critical part of the discovery process.</p>
 
             <h2 className="text-2xl tracking-tight mb-6">Outcome</h2>
-            <p className="text-lg text-gray-600 max-w-2xl">Although the proposed solutions were not ultimately implemented due to shifting business priorities, the discovery initiative helped establish a more structured, insight-driven approach to product planning within the organization.</p>
+            <p className="text-lg text-gray-500 max-w-2xl">Although the proposed solutions were not ultimately implemented due to shifting business priorities, the discovery initiative helped establish a more structured, insight-driven approach to product planning within the organization.</p>
 
-            <p className="text-lg text-gray-600 max-w-2xl">The project reinforced the value of validating operational problems early, aligning stakeholders around shared priorities, and using discovery to guide strategic product decisions before committing to development.</p>
+            <p className="text-lg text-gray-500 max-w-2xl">The project reinforced the value of validating operational problems early, aligning stakeholders around shared priorities, and using discovery to guide strategic product decisions before committing to development.</p>
 
             
         </section>
         {/* <section className="space-y-6">
             <h1 className="text-4xl tracking-tight mb-6">Visual Assets</h1>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <p className="text-lg text-gray-500 max-w-2xl">
             Placeholder for screenshots, wireframes, and other visual assets that illustrate the design and functionality of the returns platform.
             </p>    
             <MobileCarousel />
