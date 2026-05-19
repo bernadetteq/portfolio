@@ -2,18 +2,30 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Inter } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
+
+
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
 
+// export const metadata = {
+//   title: "Bernadette Quitoriano's Portfolio",
+//   icons: {
+//     icon: "/favicon.svg",
+//   },
+//   viewport: "width=device-width, initial-scale=1",
+// };
 export const metadata = {
-  title: "Bernadette Quitoriano's Portfolio",
-  icons: {
-    icon: "/favicon.svg",
-  },
-  viewport: "width=device-width, initial-scale=1",
+  title: "Bernadette Quitoriano Portfolio",
+  description: "Bernadette Quitoriano - Product Manager Portfolio",
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -34,6 +46,7 @@ export default function RootLayout({
         </div>
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-F7XL718W47" />
     </html>
   );
 }
