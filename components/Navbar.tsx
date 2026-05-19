@@ -49,7 +49,18 @@ useEffect(() => {
         <div className="hidden md:flex gap-6 text-sm">
           <Link href="/projects">Projects</Link>
           <Link href="/about">About</Link>
-          <a href="/cv-bernadette-quitoriano-.pdf" download>Download CV</a>
+          <a
+          href="/cv-bernadette-quitoriano-.pdf"
+          download
+          onClick={() => {
+            window.gtag?.("event", "resume_download", {
+              event_category: "engagement",
+              event_label: "CV PDF",
+            });
+          }}
+        >
+          Download CV
+        </a>
         </div>
         <div ref={menuRef} className="
                 md:hidden
@@ -118,7 +129,14 @@ useEffect(() => {
             About
           </Link>
 
-          <a href="/cv-bernadette-quitoriano-.pdf" download>
+          <a href="/cv-bernadette-quitoriano-.pdf" download
+          onClick={() => {
+            window.gtag?.("event", "resume_download", {
+              event_category: "engagement",
+              event_label: "CV PDF",
+            });
+          }}
+          >
             Download CV
           </a>
 
