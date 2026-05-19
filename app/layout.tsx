@@ -14,6 +14,9 @@ const inter = Inter({
 export const metadata = {
   title: "Bernadette Quitoriano Portfolio",
   description: "Bernadette Quitoriano - Product Manager Portfolio",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export const viewport = {
