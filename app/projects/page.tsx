@@ -23,10 +23,19 @@ export default function ProjectsPage() {
           </div>
         </Link>
         <Link href="/projects/quotation-platform-product-discovery">
-          <div className="border rounded-2xl p-6">
+          <div className="border rounded-2xl p-6 mb-8">
             <h3 className="text-xl tracking-tight">Shaping the Next Phase of an Internal Quotation Tool</h3>
             <p className="text-gray-500 mt-2">
               Used research, stakeholder interviews, and workflow analysis to identify high-impact enhancements and inform future product direction.
+            </p>
+          </div>
+        </Link>
+        <Link href="/projects/predictive-energy-forecasting">
+          <div className="border rounded-2xl p-6">
+            <h3 className="text-xl tracking-tight">Predictive Energy Forecasting</h3>
+            <p className="text-gray-500 mt-2">
+              {/* Developed a predictive model to forecast energy output based on operational inputs, providing actionable insights for energy management. */}
+              Explored how machine learning techniques can support operational forecasting by evaluating predictive models for estimating power plant energy output.
             </p>
           </div>
         </Link>

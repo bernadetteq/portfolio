@@ -14,7 +14,7 @@ export default function ProjectsPage() {
             E-COMMERCE
             </p>
             <h1 className="text-4xl tracking-tight mb-6">Digitizing the Returns Experience</h1>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <p className="text-lg text-gray-500 max-w-2xl">
             Built a self-service returns platform that addressed rising support demand, streamlined operations, and improved the end-to-end customer experience.
             </p>    
 
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
                             Role
                             </p>
 
-                            <p className="text-sm text-gray-600 max-w-2xl">
+                            <p className="text-sm text-gray-500 max-w-2xl">
                             Product Manager
                             </p>
                         </div>
@@ -69,7 +69,7 @@ export default function ProjectsPage() {
                             Teams
                             </p>
 
-                            <p className="text-sm text-gray-600 max-w-2xl">
+                            <p className="text-sm text-gray-500 max-w-2xl">
                             Contact Center, Data Science, Scrum Team
                             </p>
                         </div>
@@ -82,12 +82,12 @@ export default function ProjectsPage() {
         </section>
         <section className="space-y-6">
             <h2 className="text-2xl tracking-tight mb-6 tracking-tight">Problem</h2>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <p className="text-lg text-gray-500 max-w-2xl">
             Growing return volumes exposed the limitations of a phone-dependent support model, creating operational bottlenecks and a fragmented customer experience. A scalable self-service solution was needed to streamline returns while reducing reliance on the contact center.
             </p>
             <h2 className="text-2xl tracking-tight mb-6">Creative Process</h2>
 
-            <ul className="list-decimal list-outside text-lg text-gray-600 max-w-2xl pl-6">
+            <ul className="list-decimal list-outside text-lg text-gray-500 max-w-2xl pl-6">
                 <li>Discover: Understand customer pain points, operational bottlenecks, and business goals through research and stakeholder collaboration.</li>
                 <li>Prioritize: Identify the highest-impact opportunities based on value, feasibility, and urgency.</li>
                 <li>Execute: Work closely with design and engineering teams to deliver iterative solutions efficiently.</li>
@@ -98,25 +98,25 @@ export default function ProjectsPage() {
 
                 <div className="h-full border rounded-2xl p-6 mb-8 sm:mb-0">
                     <p className="text-5xl tracking-tight mb-4">+100%+</p>
-                    <p className="text-gray-600">YoY increase in online return submissions through the introduction of a self-service returns platform.</p>
+                    <p className="text-gray-500">YoY increase in online return submissions through the introduction of a self-service returns platform.</p>
                 </div>
 
                 <div className="h-full border rounded-2xl p-6 mb-8 sm:mb-0">
                     <p className="text-5xl tracking-tight mb-4">+50%</p>
-                    <p className="text-gray-600">Reduction in inbound return support calls due to the introduction of a self-service returns platform.</p>
+                    <p className="text-gray-500">Reduction in inbound return support calls due to the introduction of a self-service returns platform.</p>
                 </div>
 
             </div>
             <h2 className="text-2xl tracking-tight mb-6">Key Takeaway</h2>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <p className="text-lg text-gray-500 max-w-2xl">
             This project reinforced the importance of balancing speed, scope, and customer value. Originally planned for a single-quarter release, shifting business conditions required rapid reprioritization mid-development. To deliver value on time, I made the decision to strategically reduce scope and focus on the highest-impact functionality, an important lesson in practical product leadership.
             </p>
-            <p className="text-lg text-gray-600 max-w-2xl">It also highlighted the value of simplifying complex user experiences. By reevaluating a lengthy returns flow with 10+ fields and extensive questionnaires, we streamlined the process into a lightweight experience centered around a few key questions, photo uploads, and optional customer comments. The result was a faster, more intuitive journey that reduced friction for users while maintaining operational needs.</p>
+            <p className="text-lg text-gray-500 max-w-2xl">It also highlighted the value of simplifying complex user experiences. By reevaluating a lengthy returns flow with 10+ fields and extensive questionnaires, we streamlined the process into a lightweight experience centered around a few key questions, photo uploads, and optional customer comments. The result was a faster, more intuitive journey that reduced friction for users while maintaining operational needs.</p>
             
         </section>
         <section className="space-y-6">
-            <h1 className="text-4xl tracking-tight mb-6">Visual Assets</h1>
-            <p className="text-lg text-gray-600 max-w-2xl">
+            <h2 className="text-2xl tracking-tight mb-6">Visual Assets</h2>
+            <p className="text-lg text-gray-500 max-w-2xl">
             Placeholder for screenshots, wireframes, and other visual assets that illustrate the design and functionality of the returns platform.
             </p>    
             <MobileCarousel />

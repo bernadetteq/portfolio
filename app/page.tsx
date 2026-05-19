@@ -25,7 +25,13 @@ export default function Home() {
 
       {/* FEATURED WORK */}
       <section className="space-y-8">
-        <h2 className="text-4xl tracking-tight mb-6">Featured Projects</h2>
+        <div className="flex items-center justify-between">
+          <h2 className="text-4xl tracking-tight">Featured Work</h2>
+          <Link href="/projects/" className="text-sm
+      
+      transition">See All Projects</Link>
+        </div>
+        {/* <h2 className="text-4xl tracking-tight mb-6">Featured Projects</h2> */}
 
         <div className="space-y-6">
           <Link href="/projects/digitizing-returns">
