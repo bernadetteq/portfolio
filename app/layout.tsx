@@ -8,6 +8,14 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+export const metadata = {
+  title: "Bernadette Quitoriano's Portfolio",
+  icons: {
+    icon: "/favicon.svg",
+  },
+  viewport: "width=device-width, initial-scale=1",
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -16,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {/* <meta name="viewport" content="width=device-width, initial-scale=1.0" /> */}
       </head>
       <body className="antialiased">
         <div className="max-w-4xl mx-auto max-sm:px-6">

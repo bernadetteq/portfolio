@@ -41,11 +41,14 @@ export default function AboutPage() {
                 <li>Back-end Development</li>
                 <li>Slack, MS Teams, Zoom</li>
                 <li>Sketch, Figma</li>
-                <li>Front-end Development in my repertoire</li>
+            </ul>
+            <p className="text-lg leading-8 text-gray-500 mt-6">Front-end Development in my repertoire</p>
+            <ul className="list-disc list-inside text-lg leading-8 text-gray-500 mt-4">
                 <li>HTML, HTML5</li>
-                <li>CSS, CSS3</li>
+                <li>CSS, CSS3, Tailwind</li>
                 <li>Javascript</li>
                 <li>jQuery</li>
+                <li>React, Next.js</li>
                 <li>Responsive Web Development</li>
                 <li>Curiosity and courage to learn new technologies</li>
             </ul>
