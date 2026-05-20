@@ -54,8 +54,10 @@ export default function RootLayout({
           })(window, document, "clarity", "script", "wtlhvpm4em");
         `}
       </Script>
+      {process.env.NODE_ENV === "production" && (
+        <GoogleAnalytics gaId="G-F7XL718W47" />
+      )}
       
-      <GoogleAnalytics gaId="G-F7XL718W47" />
     </html>
   );
 }
