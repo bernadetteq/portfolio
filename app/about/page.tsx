@@ -61,19 +61,19 @@ export default function AboutPage() {
                 <div className="border rounded-2xl p-6">
                     <h3 className="text-xl tracking-tight">Product Management</h3>
                     <p className="text-gray-500 mt-2">
-                    Started Product Management in 2017 and continuously growing in this awesome journey as well as acquiring new skills each day.
+                    I started my Product Management journey in 2017 and have continued growing ever since, constantly developing new skills and learning through each experience along the way.”
                     </p>
                 </div>
                 <div className="border rounded-2xl p-6">
                     <h3 className="text-xl tracking-tight">UX Design</h3>
                     <p className="text-gray-500 mt-2">
-                    During my front-end development stint, I started working on user experience designing which has been really handy in being a Product Owner.f experience in back-end development as well as web design.
+                    During my time in front-end development, I naturally gravitated toward UX design, which has been incredibly valuable in my journey as a Product Owner. Combined with my experience in back-end development and web design, it’s given me a well-rounded perspective on building user-centered products.
                     </p>
                 </div>
                 <div className="border rounded-2xl p-6">
                     <h3 className="text-xl tracking-tight">Web Development</h3>
                     <p className="text-gray-500 mt-2">
-                    One of my core strengths in web development having more than 6 years of experience which also includes 2 years of experience in back-end development as well as web design.
+                    One of my core strengths is web development, backed by more than six years of experience, including two years focused on back-end development and web design.
                     </p>
                 </div>
             </div>
