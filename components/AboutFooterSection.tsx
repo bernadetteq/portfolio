@@ -6,13 +6,13 @@ export default function Footer() {
       <div className="max-w-4xl mx-auto py-12 max-sm:px-6">
         <footer className="flex flex-col sm:flex-row">
             <div className="sm:w-1/4 flex-auto space-y-4 pr-8">
-              <h5 className="text-lg font-bold tracking-tight uppercase text-[#cccccc]">About Me</h5>
-              <p className="max-w-2xl sm:py-0 pb-12 text-[#aaaaaa]">
+              <h5 className="text-lg font-bold tracking-tight uppercase text-[#eeeeee]">About Me</h5>
+              <p className="max-w-2xl sm:py-0 pb-12 text-[#e6e6e6]">
                 With over a decade of expertise in the e-commerce industry, I practice agile methodologies, particularly Scrum and Kanban, to help businesses create value-driven outcomes. I have a strong background in web development and user experience design, and my passion lies in creating web products that are both financially successful and customer-centric, consistently surpassing assigned Key Performance Indicator (KPI) targets.
               </p>
             </div>
               <div className="sm:w-1/2 flex-none sm:mt-5 md:mt-0">
-                <h5 className="text-lg font-bold tracking-tight uppercase text-[#cccccc]">Featured Certifications</h5>
+                <h5 className="text-lg font-bold tracking-tight uppercase text-[#eeeeee]">Featured Certifications</h5>
                 <Link
                   href="https://www.scrumalliance.org/members/1397795"
                   target="_blank"
@@ -52,7 +52,7 @@ export default function Footer() {
                         className="
                           text-lg
                           tracking-tight
-                          text-[#cccccc]
+                          text-[#eeeeee]
                         "
                       >
                         Certified Scrum Master
@@ -114,7 +114,7 @@ export default function Footer() {
                         className="
                           text-lg
                           tracking-tight
-                          
+                          text-[#eeeeee]
                         "
                       >
                         Certified Scrum Product Owner
@@ -174,7 +174,7 @@ export default function Footer() {
                         className="
                           text-lg
                           tracking-tight
-                          text-[#cccccc]
+                          text-[#eeeeee]
                         "
                       >
                         Certified UX Professional
