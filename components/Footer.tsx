@@ -66,25 +66,11 @@ export default function Footer() {
               </p>
 
 
-              {/* <div className="sm:grid sm:grid-cols-3 sm:gap-6 items-stretch">
-
-                <div className="h-full border rounded-2xl p-6 mb-8 sm:mb-0">
-                    <p className="text-5xl tracking-tight mb-4">+100%+</p>
-                    <p className="text-gray-500">YoY increase in online return submissions through the introduction of a self-service returns platform.</p>
-                </div>
-
-                <div className="h-full border rounded-2xl p-6 mb-8 sm:mb-0">
-                    <p className="text-5xl tracking-tight mb-4">+50%</p>
-                    <p className="text-gray-500">Reduction in inbound return support calls due to the introduction of a self-service returns platform.</p>
-                </div>
-
-            </div> */}
-
 
               <div className="sm:grid sm:grid-cols-3 sm:gap-6 items-stretch">
                 <div className="flex  lg:mt-0 ">
                   <a
-                    href="https://www.linkedin.com/in/bimquitoriano/"
+                    href="mailto:bimquitoriano@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
@@ -96,7 +82,7 @@ export default function Footer() {
                     </svg> 
                   </a>
                   
-                  <a href="bimquitoriano@gmail.com" className="text-sm hover:opacity-60 text-gray-500" target="_blank">
+                  <a href="mailto:bimquitoriano@gmail.com" className="text-sm hover:opacity-60 text-gray-500" target="_blank">
                     bimquitoriano@gmail.com
                   </a>
                 </div>
