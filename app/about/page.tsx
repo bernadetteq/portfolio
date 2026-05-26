@@ -102,19 +102,19 @@ export default function AboutPage() {
             <h2 className="text-4xl tracking-tight mb-8">My Superpowers</h2>
 
             <div className="space-y-6">
-                <div className="border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
+                <div className="border border-gray-500  rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
                     <h3 className="text-xl tracking-tight">Product Management</h3>
                     <p className="text-gray-500 mt-2">
                     I started my Product Management journey in 2017 and have continued growing ever since, constantly developing new skills and learning through each experience along the way.”
                     </p>
                 </div>
-                <div className="border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
+                <div className="border border-gray-500 rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
                     <h3 className="text-xl tracking-tight">UX Design</h3>
                     <p className="text-gray-500 mt-2">
                     During my time in front-end development, I naturally gravitated toward UX design, which has been incredibly valuable in my journey as a Product Owner. Combined with my experience in back-end development and web design, it's given me a well-rounded perspective on building user-centered products.
                     </p>
                 </div>
-                <div className="border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
+                <div className="border border-gray-500 rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
                     <h3 className="text-xl tracking-tight">Web Development</h3>
                     <p className="text-gray-500 mt-2">
                     One of my core strengths is web development, backed by more than six years of experience, including two years focused on back-end development and web design.
