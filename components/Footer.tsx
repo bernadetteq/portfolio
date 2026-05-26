@@ -68,13 +68,13 @@ export default function Footer() {
 
 
               <div className="sm:grid sm:grid-cols-3 sm:gap-6 items-stretch">
-                <div className="flex  lg:mt-0 ">
+                <div className="flex lg:mt-0  text-gray-500 hover:text-[#dc8a8a] transition-colors duration-300">
                   <a
                     href="mailto:bimquitoriano@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
-                    className="inline-flex items-center text-gray-500 hover:opacity-60 transition"
+                    className="inline-flex items-center"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="mr-2" width="20"
                       height="20">
@@ -82,17 +82,18 @@ export default function Footer() {
                     </svg> 
                   </a>
                   
-                  <a href="mailto:bimquitoriano@gmail.com" className="text-sm hover:opacity-60 text-gray-500" target="_blank">
+                  <a href="mailto:bimquitoriano@gmail.com" className="text-sm" target="_blank">
                     bimquitoriano@gmail.com
                   </a>
                 </div>
-                <div className="flex lg:mt-0 mt-4">
+                
+                <div className="flex lg:mt-0 mt-4 text-gray-500 hover:text-[#dc8a8a] transition-colors duration-300">
                   <a
                     href="https://www.linkedin.com/in/bimquitoriano/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
-                    className="inline-flex items-center text-gray-500 hover:opacity-60 transition"
+                    className="inline-flex items-center"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +106,7 @@ export default function Footer() {
                       <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.11 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.1c.5-1 1.8-2.2 3.9-2.2 4.2 0 5 2.8 5 6.5V24h-4v-7.1c0-1.7 0-3.9-2.4-3.9s-2.7 1.9-2.7 3.8V24h-4V8z" />
                     </svg>
                   </a> 
-                  <a href="https://www.linkedin.com/in/bimquitoriano/" className="text-sm hover:opacity-60 text-gray-500" target="_blank">
+                  <a href="https://www.linkedin.com/in/bimquitoriano/" className="text-sm" target="_blank">
                     /bimquitoriano
                   </a>
                 </div>

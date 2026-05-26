@@ -27,15 +27,13 @@ export default function Home() {
       <section className="space-y-8">
         <div className="flex items-center justify-between">
           <h2 className="text-4xl tracking-tight">Featured Work</h2>
-          <Link href="/projects/" className="text-sm
-      
-      transition">See All Projects</Link>
+          <Link href="/projects/" className="text-sm transition hover:text-[#dc8a8a] transition-colors duration-300">See All Projects</Link>
         </div>
         {/* <h2 className="text-4xl tracking-tight mb-6">Featured Projects</h2> */}
 
         <div className="space-y-6">
           <Link href="/projects/digitizing-returns">
-            <div className="border rounded-2xl p-6 mb-8">
+            <div className="border rounded-2xl p-6 mb-8 hover:translate-x-[10px] transition-transform duration-300">
               <h3 className="text-xl tracking-tight">Digitizing the Returns Experience</h3>
               <p className="text-gray-500 mt-2">
                 Built a self-service returns platform that addressed rising support demand, streamlined operations, and improved the end-to-end customer experience.
@@ -43,7 +41,7 @@ export default function Home() {
             </div>
           </Link>
           <Link href="/projects/scaling-return-operations">
-            <div className="border rounded-2xl p-6 mb-8">
+            <div className="border rounded-2xl p-6 mb-8 hover:translate-x-[10px] transition-transform duration-300">
               <h3 className="text-xl tracking-tight">Scaling Return Operations Through Automation</h3>
               <p className="text-gray-500 mt-2">
                 Introduced automated return tracking and notifications to reduce operational overhead and accelerate customer access to real-time return information.
@@ -51,7 +49,7 @@ export default function Home() {
             </div>
           </Link>
           <Link href="/projects/quotation-platform-product-discovery">
-            <div className="border rounded-2xl p-6">
+            <div className="border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
               <h3 className="text-xl tracking-tight">Shaping the Next Phase of an Internal Quotation Tool</h3>
               <p className="text-gray-500 mt-2">
                 Used research, stakeholder interviews, and workflow analysis to identify high-impact enhancements and inform future product direction.

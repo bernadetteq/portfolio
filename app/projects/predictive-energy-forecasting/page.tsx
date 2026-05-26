@@ -5,7 +5,7 @@ export default function ProjectsPage() {
   return (
     <main className="py-24 space-y-20">
         <div className="space-y-8">
-                <Link href="/projects">
+                <Link href="/projects" className="ttransition hover:text-[#dc8a8a] transition-colors duration-300">
                 ← Back to Projects
                 </Link>
             </div>

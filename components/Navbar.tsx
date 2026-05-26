@@ -42,15 +42,16 @@ useEffect(() => {
 
       <div className="flex items-center justify-between py-6">
         {/* LOGO */}
-        <Link href="/" className="text-lg">
+        <Link href="/" className="text-lg hover:text-[#dc8a8a] transition-colors duration-300">
           Bernadette Quitoriano
         </Link>
         {/* DESKTOP MENU */}
         <div className="hidden md:flex gap-6 text-sm">
-          <Link href="/projects">Projects</Link>
-          <Link href="/about">About</Link>
+          <Link href="/projects" className="hover:text-[#dc8a8a] transition-colors duration-300">Projects</Link>
+          <Link href="/about" className="hover:text-[#dc8a8a] transition-colors duration-300">About</Link>
           <a
           href="/cv-bernadette-quitoriano-.pdf"
+          className="hover:text-[#dc8a8a] transition-colors duration-300"
           download
           onClick={() => {
             window.gtag?.("event", "resume_download", {
