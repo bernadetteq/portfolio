@@ -9,8 +9,9 @@ export default function Footer() {
             <div className="sm:w-1/4 flex-auto space-y-4 pr-8">
               <h5 className="text-lg font-bold tracking-tight uppercase text-[#eeeeee]">About Me</h5>
               <p className="max-w-2xl sm:py-0 sm:pb-0 text-[#e6e6e6]">
-                With over a decade of expertise in the e-commerce industry, I practice agile methodologies, particularly Scrum and Kanban, to help businesses create value-driven outcomes. I have a strong background in web development and user experience design, and my passion lies in creating web products that are both financially successful and customer-centric, consistently surpassing assigned Key Performance Indicator (KPI) targets.
+                With over a decade of experience in product development across e-commerce and B2B environments, I help organizations build scalable, customer-centric digital products that drive measurable business outcomes. My approach combines agile product practices, cross-functional collaboration, and a strong foundation in web development and user experience design to deliver solutions that balance customer needs with business goals.
               </p>
+              
               {/* <Link href="/projects/" className="inline-flex text-sm border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">Download CV</Link> */}
               <a
               href="/cv-bernadette-quitoriano-.pdf"

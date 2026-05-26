@@ -46,7 +46,10 @@ export default function AboutPage() {
       <h1 className="text-4xl tracking-tight mb-8">About me</h1>
         <section className="space-y-6">
             <p className="text-lg leading-8 text-gray-500">
-                With over a decade of expertise in the e-commerce industry, I practice agile methodologies, particularly Scrum and Kanban, to help businesses create value-driven outcomes. As a Certified Scrum Master and Scrum Product Owner, my work is deeply rooted in these methodologies. I have a strong background in web development and user experience design, and my passion lies in creating web products that are both financially successful and customer-centric, consistently surpassing assigned Key Performance Indicator (KPI) targets.
+                With over a decade of experience in product development across e-commerce and B2B environments, I help organizations build scalable, customer-centric digital products that drive measurable business outcomes. My approach combines agile product practices, cross-functional collaboration, and a strong foundation in web development and user experience design to deliver solutions that balance customer needs with business goals.
+            </p>
+            <p className="text-lg leading-8 text-gray-500">
+                As a Certified Scrum Master and Product Owner, I have led initiatives spanning product discovery, operational optimization, workflow automation, and digital experience improvements which consistently focusing on delivering value, improving efficiency, and exceeding key business metrics.
             </p>
             <p className="text-lg leading-8 text-gray-500 mt-6">
                 Skills that help me in my daily Product journey
