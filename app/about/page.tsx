@@ -99,19 +99,19 @@ export default function AboutPage() {
             <h2 className="text-4xl tracking-tight mb-8">My Superpowers</h2>
 
             <div className="space-y-6">
-                <div className="border rounded-2xl p-6">
+                <div className="border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
                     <h3 className="text-xl tracking-tight">Product Management</h3>
                     <p className="text-gray-500 mt-2">
                     I started my Product Management journey in 2017 and have continued growing ever since, constantly developing new skills and learning through each experience along the way.”
                     </p>
                 </div>
-                <div className="border rounded-2xl p-6">
+                <div className="border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
                     <h3 className="text-xl tracking-tight">UX Design</h3>
                     <p className="text-gray-500 mt-2">
                     During my time in front-end development, I naturally gravitated toward UX design, which has been incredibly valuable in my journey as a Product Owner. Combined with my experience in back-end development and web design, it's given me a well-rounded perspective on building user-centered products.
                     </p>
                 </div>
-                <div className="border rounded-2xl p-6">
+                <div className="border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">
                     <h3 className="text-xl tracking-tight">Web Development</h3>
                     <p className="text-gray-500 mt-2">
                     One of my core strengths is web development, backed by more than six years of experience, including two years focused on back-end development and web design.
@@ -142,20 +142,12 @@ export default function AboutPage() {
                     target="_blank"
                     className="
                     w-full
-                    sm:w-[200px]    
-
-                    
-
-                    
-
+                    sm:w-[200px] 
                     flex
                     flex-col
                     items-center
                     text-center
-
-                    
                     hover:-translate-y-1
-
                     transition-all
                     duration-300
                     "
@@ -166,8 +158,6 @@ export default function AboutPage() {
                     className="
                         w-50
                         h-50
-                        
-
                         flex
                         items-center
                         justify-center
@@ -220,40 +210,6 @@ export default function AboutPage() {
 
         </section>
 
-        {/* <section className="space-y-8">
-            <h2 className="text-4xl tracking-tight mb-8">Certifications</h2>
-
-            <div className="space-y-6">
-                <div className="flex flex-col sm:flex-row">
-                <div className="w-full sm:w-1/4 flex-none space-y-4 pr-8">
-                    <div
-                      className="
-                        flex-shrink-0
-                        w-14
-                        h-14
-                        rounded-2xl
-                        bg-zinc-100
-                        flex
-                        items-center
-                        justify-center
-                        overflow-hidden
-                      "
-                    >
-                      <img
-                        src="/images/sa-cspo-600.png"
-                        alt="Certified Scrum Product Owner Logo"
-                        className="w-10 h-10 object-contain"
-                      />
-                    </div>
-                </div>
-                <div className="w-fullsm:w-1/4 flex-none space-y-4 pr-8">
-                    
-                </div>
-                <div className="w-fullsm:w-1/4 flex-none space-y-4 pr-8 "></div>
-                <div className="w-fullsm:w-1/4 flex-none space-y-4 pr-8 "></div>
-            </div>
-            </div>
-        </section> */}
     </main>
   );
 }
