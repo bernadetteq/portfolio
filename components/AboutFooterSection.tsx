@@ -15,7 +15,7 @@ export default function Footer() {
               {/* <Link href="/projects/" className="inline-flex text-sm border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300">Download CV</Link> */}
               <a
               href="/cv-bernadette-quitoriano-.pdf"
-              className="inline-flex sm:mb-0 mb-6 text-sm border rounded-2xl p-6 hover:translate-x-[10px] transition-transform duration-300"
+              className="inline-flex sm:mb-0 mb-6 text-sm border rounded-2xl p-6  hover:translate-x-[10px] hover:text-[#dc8a8a]  hover:border-[#dc8a8a] transition-all duration-300"
               download
               onClick={() => {
                 window.gtag?.("event", "resume_download", {
